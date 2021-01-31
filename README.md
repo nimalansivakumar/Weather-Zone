@@ -9,5 +9,5 @@ Open Weather Api is used to fetch weather data of different places.
 - CSS
 - JAVASCRIPT
 # Demo
-(https://weather-zone.netlify.app/)[https://weather-zone.netlify.app/]
+(WeatherZone)[https://weather-zone.netlify.app/]
 
