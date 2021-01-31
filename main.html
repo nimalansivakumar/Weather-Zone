@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherZone</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="/imgs/Clear.png" rel="icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="app-name">WeatherZone</h1>
+            <a href="https://github.com/nimalansivakumar"><img src="/imgs/account_circle.png" class="header-icons"></a>
+        </nav>
+        
+    </header>
+
+    <section class="column-1">
+
+        <input class="search-input">
+        <button class="search-button">Search</button>
+
+    </section>
+    <section class="column-2" id="data-content">
+
+            <!--<div class="illus-div" id="illus-divs">
+                <h1 class="ill-text">Search place</h1>
+                <img src="/imgs/weather-pack.svg" class="illustration">
+            </div>-->
+            
+            <h2 id="country-name"></h2>
+
+            <div class="main-weather">
+
+                <h2 id="description"></h2>
+                <h3 id="feels-like"></h3>
+                <img src="/imgs/cloudy.png" id="main-img">
+                <h3 id="description-img"></h3>
+                <p id="date"></p>
+
+            </div>
+
+            <div class="show-time">
+
+                <div>
+                    <h3>Min Temp</h3>
+                    <img src="/imgs/cold.png">
+                    <p id="min-temp">0</p>
+                </div>
+                <div>
+                    <h3>Max Temp</h3>
+                    <img src="/imgs/hot.png">
+                    <p id="max-temp">0</p>
+                </div>
+                <div>
+                    <h3>Humidity</h3>
+                    <img src="/imgs/humidity.png">
+                    <p id="humidity">0</p>
+                </div>
+                <div>
+                    <h3>Wind Speed</h3>
+                    <img src="/imgs/wind.png">
+                    <p id="wind-speed">0</p>
+                </div>
+                <div>
+                    <h3>Pressure</h3>
+                    <img src="/imgs/barometer.png">
+                    <p id="pressure">0</p>
+                </div>
+                
+            </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>     

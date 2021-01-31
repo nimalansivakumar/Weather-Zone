@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    font-size: 16px;
+    width: 100%;
+}
+
+nav{
+    background-color: #282f32;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.header-icons{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+
+.app-name{
+    padding: 10px;
+    color: #ffffff;
+}
+
+.column-1{
+    background-image: url(/imgs/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.column-1 , .column-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+input{
+    height: 50px;
+    width: 200px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 #282f32;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.search-button{
+    margin-left: 10px;
+    background-color: #CAE4DB;
+    border-radius: 5px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+
+.column-2{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.show-time{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.show-time div , .main-weather{
+    margin: 10px;
+    background-color: #CAE4DB;
+    border-radius: 5px;
+    width: 10rem;
+    height: auto;
+    text-align: center;
+    color: #282f32;
+}
+
+.show-time img , .main-weather img{
+    max-width: 80px;
+}
+
+.show-time p{
+    color: #282f32;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+
+h2{
+    font-size: 2rem;
+    color: #282f32;
+}
+
+.main-weather{
+
+}
+
+.show-weather{
+    width: 150px;
+    background-color: #CDAC81 ;
+}
+
+.show-weather:hover , .search-button:hover{
+    transform: scale(1.1);
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.illus-div{
+    text-align: center;
+}
+
+.illustration{
+    margin: 20px;
+    width: 30%;
+}
+
+@media screen and (max-width:720px){
+    .show-time{
+        flex-wrap: wrap;
+    }
+
+    .column-2{
+        max-width: none;
+    }
+}
